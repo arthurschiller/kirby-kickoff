@@ -1,0 +1,45 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+.sass-cache/
+node_modules/
+npm-debug.log
+bower_components/
+.DS_Store
+temp/
+assets/css
+assets/js
+.tmp
+.sass-cache
+*.sassc
+*.scssc
+*.log
+*.css.map
+
+/public/thumbs/*
+!/public/thumbs/index.html
+
+/cache/*
+!/cache/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Kirby accounts
+# ---------------
+
+/accounts/*
+!/accounts/index.html
+
+# Avatars
+# ---------------
+
+/assets/avatars/*
+!/assets/avatars/index.html

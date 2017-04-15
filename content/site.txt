@@ -1,0 +1,13 @@
+Title: Kirby Kickoff
+
+----
+
+Author: Arthur Schiller
+
+----
+
+Description: This is kickoff template for Kirby.
+
+----
+
+Copyright: Made by (link: http://arthurschiller.com text: Arthur Schiller)
