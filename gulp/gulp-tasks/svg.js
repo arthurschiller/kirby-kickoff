@@ -16,8 +16,3 @@ gulp.task('svg', function () {
 	.pipe(svgSprite(svgSpriteConfig))
 	.pipe(gulp.dest(config.src + '/svg'));
 });
-
-gulp.task('copySVG', function() {
-	return gulp.src(config.src + '/svg/svg_spritesheet.svg')
-	.pipe(gulp.dest(config.dist + '/svg'))
-})

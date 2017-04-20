@@ -9,7 +9,7 @@
 	</div>
 </footer>
 
-<?= js('assets/js/bundle.js') ?>
+<?= js('assets/js/bundle.min.js') ?>
 
 </body>
 </html>

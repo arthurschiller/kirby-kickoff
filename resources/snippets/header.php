@@ -8,7 +8,7 @@
 	<title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
 	<meta name="description" content="<?= $site->description()->html() ?>">
 
-	<?= css('assets/css/styles.css') ?>
+	<?= css('assets/css/styles.min.css') ?>
 
 </head>
 <body>
