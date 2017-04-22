@@ -5,7 +5,6 @@ module.exports = {
 		js: './resources/js/**/*.js',
 		jsx: './resources/js/**/*.jsx',
 		scss: './resources/scss/**/*.scss',
-		//html: './resources/**/*.html',
 		svg: './resources/svg/raw/*.svg',
 		fonts: './assets/fonts/**/*',
 		images: './assets/images/**/*'

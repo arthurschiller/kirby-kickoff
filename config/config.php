@@ -29,4 +29,5 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+c::set('panel.install', true);
 c::set('debug', true);

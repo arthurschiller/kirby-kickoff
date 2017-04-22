@@ -2,10 +2,10 @@
 
 define('DS', DIRECTORY_SEPARATOR);
 
-// load kirby
+// ## load kirby
 require(__DIR__ . DS . 'kirbycore' . DS . 'bootstrap.php');
 
-// check for a custom site.php
+// ## check for a custom site.php
 if(file_exists(__DIR__ . DS . 'site.php')) {
 	require(__DIR__ . DS . 'site.php');
 } else {

@@ -9,7 +9,7 @@ gulp.task('browserSync', ['php'], function(){
 		notify: false,
 		open: true,
         snippetOptions: {
-          ignorePaths: ["./panel/**"]
+        	ignorePaths: ["./panel/**"]
         },
 	})
 })

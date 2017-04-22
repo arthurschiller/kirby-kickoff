@@ -1,3 +1,8 @@
 // ## some hello world sample code that imports a module
-var sayHello = require('./someModule');
-sayHello('World', document.querySelector('.greeting'));
+var sayHello = require('./someModule')
+
+var greeting = document.querySelector('.greeting')
+
+if (greeting !== null) {
+	sayHello('World', greeting)
+}
