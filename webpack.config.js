@@ -6,26 +6,30 @@ function fromRootDir(matchPath) {
 }
 
 module.exports = {
-	cache: true,
-	debug: true,
-	devtool: ['eval', 'source-map'],
-	entry: './resources/js/main.js',
+	context: path.resolve(__dirname, './resources/js'),
+	entry: {
+		main: './main.js',
+	},
 	output: {
-		path: path.join(__dirname, "assets/js"),
-		filename: 'bundle.js'
+		path: path.resolve(__dirname, './assets/js'),
+		filename: './bundle.js'
 	},
 	resolve: {
-		extensions: ['', '.js', '.json', '.coffee']
+		extensions: ['.js', '.json', '.coffee']
 	},
-	loaders: [
-		{
-			test: /\.js$/,
-			loader: 'babel',
-			exclude: /(node_modules|bower_components)/,
-			query: {
-				plugins: ['transform-runtime'],
-				presets: ['es2015', 'stage-0'],
-			}
-		}
-	]
-};
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: [/node_modules|bower_components/],
+				loader: 'eslint-loader'
+			},
+			{
+				test: /\.js$/,
+				exclude: [/node_modules|bower_components/],
+				loader: 'babel-loader',
+				options: { presets: ['es2015'] }
+			},
+		]
+	}
+}

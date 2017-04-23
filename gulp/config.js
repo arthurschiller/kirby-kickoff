@@ -1,4 +1,13 @@
 module.exports = {
+	settings: {
+		useCustomProxy: false
+	},
+	devServer: {
+		browserSyncPort: 8080,
+		phpServerPort: 8010,
+		phpProxy: '127.0.0.1:8010',
+		customProxy: '127.0.0.1',
+	},
 	src: './resources',
 	dist: './assets',
 	paths: {

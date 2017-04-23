@@ -1,8 +1,5 @@
-// ## some hello world sample code that imports a module
-var sayHello = require('./someModule')
+var sayHello = require('./someModule');
+sayHello('World', document.querySelector('.greeting'));
 
-var greeting = document.querySelector('.greeting')
-
-if (greeting !== null) {
-	sayHello('World', greeting)
-}
+let message = 'es6 webpack!';
+console.log(message);

@@ -9,7 +9,7 @@ uglify = require('gulp-uglify'),
 autoprefixer = require('gulp-autoprefixer'),
 cleanCSS = require('gulp-clean-css'),
 rename = require('gulp-rename'),
-sassModuleImporter = require('sass-module-importer');
+sassModuleImporter = require('sass-module-importer')
 
 gulp.task('sass', function(){
 	return gulp.src(config.paths.scss)
