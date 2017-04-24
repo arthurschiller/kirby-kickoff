@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arthurschiller/basement.git"
+    "url": "git+https://github.com/arthurschiller/kirby-kickoff/kirby-kickoff.git"
   },
   "keywords": [
     "html5",
@@ -20,9 +20,9 @@
   "contributors": "None",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arthurschiller/basement/issues"
+    "url": "https://github.com/arthurschiller/kirby-kickoff/issues"
   },
-  "homepage": "https://github.com/arthurschiller/basement#readme",
+  "homepage": "https://github.com/arthurschiller/kirby-kickoff#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",

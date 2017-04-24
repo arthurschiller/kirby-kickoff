@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 config = require('../config.js'),
 sourcemaps = require('gulp-sourcemaps'),
 gutil = require('gulp-util'),
@@ -21,4 +21,4 @@ gulp.task('webpack', function() {
 	.pipe(browserSync.reload({
 		stream: true
 	}))
-});
+})

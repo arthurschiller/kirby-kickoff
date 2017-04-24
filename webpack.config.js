@@ -1,9 +1,5 @@
-var path = require('path'),
-webpack = require('webpack');
-
-function fromRootDir(matchPath) {
-	return new RegExp(process.cwd() + matchPath);
-}
+const path = require('path'),
+webpack = require('webpack')
 
 module.exports = {
 	context: path.resolve(__dirname, './resources/js'),

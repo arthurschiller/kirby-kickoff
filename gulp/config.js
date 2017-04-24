@@ -22,4 +22,4 @@ module.exports = {
 	autoprefixerOptions: {
 		browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
 	},
-};
+}

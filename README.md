@@ -1,4 +1,4 @@
-# basement
+# Kirby Kickoff
 Kickstarter project for Kirby CMS
 
 ## Installation
@@ -18,27 +18,13 @@ $ npm install
 
 ### Tasks
 To:
-  - start a webserver
+  - start a PHP webserver
   - compile your sass and js
   - refresh the browser the moment you refresh files
 
 you can just use the default gulp task
 ```sh
 $ gulp
-```
-or
-```sh
-$ gulp dev
-```
-
-
-And to:
-  - build your project for distribution
-  - copy over all your assets
-
-use: 
-```sh
-$ gulp dist
 ```
 
 ### Development

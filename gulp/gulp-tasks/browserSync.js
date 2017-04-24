@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 config = require('../config.js'),
 gulpif = require('gulp-if'),
 browserSync = require('browser-sync')

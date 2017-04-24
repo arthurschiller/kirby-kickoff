@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 config = require('../config.js'),
 gutil = require('gulp-util'),
 sass = require('gulp-sass');
@@ -30,4 +30,4 @@ gulp.task('sass', function(){
 	.pipe(browserSync.reload({
 		stream: true
 	}))
-});
+})
