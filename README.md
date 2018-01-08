@@ -18,9 +18,9 @@ $ npm install
 
 ### Tasks
 To:
-  - start a PHP webserver
-  - compile your sass and js
-  - refresh the browser the moment you refresh files
+- start a PHP webserver
+- compile your sass and js
+- refresh the browser the moment you refresh files
 
 you can just use the default gulp task
 ```sh

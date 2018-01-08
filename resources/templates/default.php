@@ -1,12 +1,12 @@
-<?php snippet('header') ?>
+<?php snippet('header')?>
 
-	<main class="main" role="main">
+    <main class="main" role="main">
 
-		<section class="content">
-			<h1><?= $page->title()->html() ?></h1>
-			<?= $page->text()->kirbytext() ?>
-		</section>
+        <section class="content">
+            <h1><?=$page->title()->html()?></h1>
+            <?=$page->text()->kirbytext()?>
+        </section>
 
-	</main>
+    </main>
 
-<?php snippet('footer') ?>
+<?php snippet('footer')?>
