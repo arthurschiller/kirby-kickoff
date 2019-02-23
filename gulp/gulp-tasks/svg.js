@@ -12,5 +12,7 @@ const svgSpriteConfig = {
 }
 
 gulp.task('svg', function() {
-    return gulp.src(config.paths.svg).pipe(svgSprite(svgSpriteConfig)).pipe(gulp.dest(config.src + '/svg'))
+    return gulp.src(config.paths.svg)
+        .pipe(svgSprite(svgSpriteConfig))
+        .pipe(gulp.dest(config.dist + '/svg'))
 })

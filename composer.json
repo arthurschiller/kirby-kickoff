@@ -1,0 +1,23 @@
+{
+    "name": "Kirby Kickoff",
+    "description": "Kickstarter project for Kirby CMS",
+    "type": "project",
+    "homepage": "https://github.com/arthurschiller/kirby-kickoff",
+    "authors": [
+        {
+            "name": "Arthur Schiller",
+            "email": "mail@arthurschiller.de",
+            "homepage": "https://arthurschiller.de"
+        }
+    ],
+    "support": {
+        "email": "mail@arthurschiller.de",
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "getkirby/cms": "^3.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

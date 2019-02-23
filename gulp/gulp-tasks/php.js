@@ -10,6 +10,7 @@ gulp.task('php', function() {
     console.log('Starting regular PHP server.')
     php.server({
         base: './',
-        port: config.devServer.phpServerPort
+        port: config.devServer.phpServerPort,
+        router: 'kirbycore/router.php'
     })
 })

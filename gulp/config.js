@@ -13,7 +13,7 @@ module.exports = {
     paths: {
         js: './resources/js/**/*.js',
         jsx: './resources/js/**/*.jsx',
-        scss: './resources/scss/**/*.scss',
+        scss: './resources/scss/**/**/*.scss',
         svg: './resources/svg/raw/*.svg',
         fonts: './assets/fonts/**/*',
         images: './assets/images/**/*'
