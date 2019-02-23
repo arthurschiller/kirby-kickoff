@@ -38,7 +38,6 @@
     "gulp-if": "^2.0.0",
     "gulp-mamp": "0.0.5",
     "gulp-minify": "^2.1.0",
-    "gulp-modernizr": "^1.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.2.1",
